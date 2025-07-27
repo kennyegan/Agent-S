@@ -1,0 +1,14 @@
+{
+  "task_prompt": "Test turning Wi-Fi off and then on",
+  "initial_conditions": {
+    "wifi_state": "on"
+  },
+  "expected_behavior": [
+    {"wifi_state": "off"},
+    {"wifi_state": "on"}
+  ],
+  "ui_invariants": [
+    "Settings app is visible",
+    "Wi-Fi toggle is visible"
+  ]
+}
